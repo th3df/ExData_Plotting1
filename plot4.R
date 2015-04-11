@@ -27,7 +27,7 @@ plot(data$Date,
      data$Global_active_power,
      type="l",
      xlab="",
-     ylab="Global Active Power(kilowatts)")
+     ylab="Global Active Power")
 
 plot(data$Date,
      data$Voltage,
@@ -61,6 +61,6 @@ plot(data$Date,
      data$Global_reactive_power,
      type="l",
      xlab="datetime",
-     ylab="Globa_reactive_power")
+     ylab="Global_reactive_power")
 
 dev.off()
